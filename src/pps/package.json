@@ -1,0 +1,20 @@
+{
+  "name": "pps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./",
+    "start": "npm run build && cd build && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "iban": "0.0.11",
+    "moment": "^2.23.0",
+    "pg": "^7.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18"
+  }
+}
